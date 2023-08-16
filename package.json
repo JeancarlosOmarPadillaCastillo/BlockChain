@@ -1,0 +1,27 @@
+{
+  "name": "deteccion_plate",
+  "version": "1.0.0",
+  "description": "Mi aplicación Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "bin": {
+    "deteccion_plate": "./index.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "moment-timezone": "^0.5.43",
+    "pg": "^8.11.0",
+    "pocketbase": "^0.15.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.21.5",
+    "@babel/core": "^7.22.1",
+    "@babel/preset-env": "^7.22.4",
+    "pkg": "^5.8.1"
+  }
+}
